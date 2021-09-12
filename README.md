@@ -16,23 +16,21 @@
   <li>Paypal Sandbox</li>
 </ul>
 
-<h1><--------------------     Dashboard    -----------------------><h1>
+<h1><--------------------    Splash Screen  -----------------------><h1>
 
-![alt text](https://github.com/zafry26/TravelApp/blob/main/SC/image_123986672%20(1).JPG?raw=true)
+![alt text](https://github.com/zafry26/RideShareApp/blob/main/sc/Screenshot%202021-09-09%20210639.png?raw=true)
 
-![alt text](https://github.com/zafry26/TravelApp/blob/main/SC/image_123986672%20(5).JPG?raw=true)
-
-<h1><------------------    Dashboard Detail    ---------------------><h1>
+<h1><--------------------    User Login    -----------------------><h1>
   
-![alt text](https://github.com/zafry26/TravelApp/blob/main/SC/image_123986672%20(4).JPG?raw=true)
+![alt text](https://github.com/zafry26/RideShareApp/blob/main/sc/Screenshot%202021-09-09%20210833.png)
   
-<h1><------------------------   Map    -----------------------------><h1>
+<h1><-------------------   Driver Dashboard    -------------------><h1>
 
-![alt text](https://github.com/zafry26/TravelApp/blob/main/SC/image_123986672%20(2).JPG?raw=true)
+![alt text](https://github.com/zafry26/RideShareApp/blob/main/sc/Screenshot%202021-09-09%20210437.png)
   
-<h1><---------------------  Map Detail   ---------------------------><h1>
+<h1><----- Driver Shaboard (Acccept User Rideshare Request) ------><h1>
 
-![alt text](https://github.com/zafry26/TravelApp/blob/main/SC/image_123986672%20(3).JPG?raw=true)
+![alt text](https://github.com/zafry26/RideShareApp/blob/main/sc/Screenshot%202021-09-09%20212420.png)
 
 
 
