@@ -8,13 +8,13 @@
   <li>Google Map API</li>
   <li>Google Places API</li>
   <li>Paypal</li>
-<ul>
+</ul>
   
 <p>Backend</p>
 <ul>
   <li>Google Firebase (Storage, Database, GeoFire)</li>
   <li>Paypal Sandbox</li>
-<ul>
+</ul>
 
 <h1><--------------------     Dashboard    -----------------------><h1>
 
