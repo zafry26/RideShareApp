@@ -31,6 +31,10 @@
 <h1><---- Driver Dashboard (Acccept User Rideshare Request) ------><h1>
 
 ![alt text](https://github.com/zafry26/RideShareApp/blob/main/sc/Screenshot%202021-09-09%20212420.png)
+   
+<h1><---- Rider Dashboard (Request Rideshare) ------><h1>
+
+![alt text](https://github.com/zafry26/RideShareApp/blob/main/sc/Screenshot%202021-09-09%20212406.png)
 
 
 
