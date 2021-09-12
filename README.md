@@ -12,7 +12,7 @@
   
 <p>Backend</p>
 <ul>
-  <li>Google Firebase (Storage, Database, GeoFire)</li>
+  <li>Google Firebase (Authentication, Storage, Database, GeoFire)</li>
   <li>Paypal Sandbox</li>
 </ul>
 
