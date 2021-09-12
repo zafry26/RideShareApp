@@ -40,6 +40,10 @@
 
 ![alt text](https://github.com/zafry26/RideShareApp/blob/main/sc/Screenshot%202021-09-09%20210504.png)
   
+<h1><------------------------ SideBar ----------------------------><h1>
+
+![alt text](https://github.com/zafry26/RideShareApp/blob/main/sc/Screenshot%202021-09-09%20231124.png)
+  
   
 
 
