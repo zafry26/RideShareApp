@@ -44,6 +44,10 @@
 
 ![alt text](https://github.com/zafry26/RideShareApp/blob/main/sc/Screenshot%202021-09-09%20231124.png)
   
+<h1><-------------------- RideShare History -----------------------><h1>
+
+![alt text](https://github.com/zafry26/RideShareApp/blob/main/sc/Screenshot%202021-09-12%20182559.png)
+  
   
 
 
