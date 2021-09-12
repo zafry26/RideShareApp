@@ -289,13 +289,23 @@ public class RiderProfileFragment extends Fragment implements View.OnClickListen
                 uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                        Uri downloadUrl = taskSnapshot.getDownloadUrl();
+                        //Uri downloadUrl = taskSnapshot.getDownloadUrl();
 
-                        Map newImage = new HashMap();
-                        newImage.put("Profile Images Url", downloadUrl.toString());
-                        databaseRider.updateChildren(newImage);
+                        if (taskSnapshot.getMetadata().getReference() != null) {
+                            Task<Uri> downloadUrl = taskSnapshot.getStorage().getDownloadUrl();
+                            downloadUrl.addOnSuccessListener(new OnSuccessListener<Uri>() {
+                                @Override
+                                public void onSuccess(Uri uri) {
+                                    Map newImage = new HashMap();
+                                    newImage.put("Profile Images Url", downloadUrl.toString());
+                                    databaseRider.updateChildren(newImage);
 
-                        Toast.makeText(getActivity(), "Succesfully upload your picture", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getActivity(), "Succesfully upload your picture", Toast.LENGTH_LONG).show();
+                                }
+                            });
+                        }
+
+
 
                     }
                 });

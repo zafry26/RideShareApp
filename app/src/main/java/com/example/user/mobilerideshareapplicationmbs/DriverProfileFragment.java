@@ -286,13 +286,23 @@ public class DriverProfileFragment extends Fragment implements View.OnClickListe
                 uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                        Uri downloadUrl = taskSnapshot.getDownloadUrl();
+                        Task<Uri> downloadUrl = taskSnapshot.getStorage().getDownloadUrl();
 
-                        Map newImage = new HashMap();
-                        newImage.put("Profile Images Url", downloadUrl.toString());
-                        databaseDriver.updateChildren(newImage);
+                        if (taskSnapshot.getMetadata().getReference() != null) {
+                            Task<Uri> result = taskSnapshot.getStorage().getDownloadUrl();
+                            result.addOnSuccessListener(new OnSuccessListener<Uri>() {
+                                @Override
+                                public void onSuccess(Uri uri) {
+                                    Map newImage = new HashMap();
+                                    newImage.put("Profile Images Url", downloadUrl.toString());
+                                    databaseDriver.updateChildren(newImage);
 
-                        Toast.makeText(getActivity(), "Succesfully upload your picture", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getActivity(), "Succesfully upload your picture", Toast.LENGTH_LONG).show();
+                                }
+                            });
+                        }
+
+
 
                     }
                 });
