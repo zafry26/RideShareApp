@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/driver_homepage"
+            android:icon="@drawable/homepage_img"
+            android:title="Driver Dashoard" />
+        <item
+            android:id="@+id/driver_manage_profile"
+            android:icon="@drawable/manage_profile_32"
+            android:title="Manage Profile" />
+        <item
+            android:id="@+id/driver_car_information"
+            android:icon="@drawable/car_information"
+            android:title="Car Information" />
+        <item
+            android:id="@+id/driver_your_trips"
+            android:icon="@drawable/your_trip_32"
+            android:title="History | Payment" />
+    </group>
+
+    <item android:title="Current Account">
+        <menu>
+            <item
+                android:id="@+id/driver_sign_out"
+                android:icon="@drawable/sign_out_64"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Mobile RideShare Application (MBS)</string>
+    <string name="rider">Rider</string>
+    <string name="driver">Driver</string>
+    <string name="homepage_logo">Homepage Logo</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="login_logo">Login Logo Logo</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+
+    <string name="signup_logo">Signup Logo</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="age">Age</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="welcome">Welcome</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="spn_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_driver_dashboard">Driver Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_rider_dashboard">Rider Dashboard</string>
+    <string name="title_activity_rider_maps">Map</string>
+    <string name="title_activity_driver_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="request_ride">Request Ride</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>
